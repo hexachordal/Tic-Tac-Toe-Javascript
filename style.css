@@ -1,0 +1,37 @@
+.board {
+    width: 320px;
+    height: 320px;
+    background-image: url('boardImg.png');
+    position: absolute;
+    font-size: 75px;
+    color: rgba(255, 0, 0, 0.726);
+    text-align: center;
+}
+
+.X1, .X2, .X3, .X4, .X5, .X6, .X7, .X8, .X9 {
+    width: 87px;
+    height: 87px;
+    background-image: url('xImg.png');
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    position: absolute;
+    
+}
+
+.O1, .O2, .O3, .O4, .O5, .O6, .O7, .O8, .O9 {
+    width: 87px;
+    height: 87px;
+    background-image: url('oImg.png');
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+}
+
+.N1, .N2, .N3, .N4, .N5, .N6, .N7, .N8, .N9 {
+    width: 87px;
+    height: 87px;
+    position: absolute;
+    
+}
